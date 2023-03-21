@@ -1,0 +1,16 @@
+#content {
+    margin: 40px;
+}
+
+.navbar {
+    color: black;
+    background-color: black;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+}
