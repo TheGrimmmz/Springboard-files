@@ -1,0 +1,25 @@
+Part 1
+1. HTTP is hypertext transfer protocol, how clients get data from and send data to a server
+
+2. URL is uniform resource locator, address of a given unique resource on the web
+
+3. DNS is domain name system, turning searches into ip addresses
+
+4. Query string a set of characters attached to the end of the url, begins with a ? and can include more than one parameter with &
+
+5. HTTP verb GET requests without side effects, without change on server, passed in query string, get some data from server
+   HTTP verb POST requests with side effects, change data on server, passed in the body, send some data to server
+
+6. HTTP request is made by a client to a named host on a server, request access a resource on a server
+
+7. HTTP response is made by the server to the client, to provide the client with the resource it requested
+
+8. HTTP header a field of a HTTTP request or response that passes additional context and metadata about the request or response,
+    request headers, cache-control user-agent
+    response headers, cache-control content-type
+
+9. browser turns webpage into IP address using DNS,
+   browser makes request to that IP address with headers,
+   server sends response,
+   browser makes DOM for webpage,
+   browser make seperate HTTP request for resources and recieves responce for each

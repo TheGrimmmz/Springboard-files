@@ -1,0 +1,12 @@
+const PI = 3.14
+
+var- can be redeclared at any time, adds to the window, scoped to a whole function
+let- can be reassigned but not redeclared in the same scope, doesnt add to the window, scoped to code block
+
+var- can be redeclared at any time, adds to the window, scoped to a whole function
+const- scoped to code block, cannot be reassigned or redeclared primitive types, change or mutates contents of arrays and objects
+
+let- can be reassigned but not redeclared in the same scope, doesnt add to the window, scoped to code block
+const- scoped to code block, cannot be reassigned or redeclared primitive types, change or mutates contents of arrays and objects
+
+hoisting- the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code
