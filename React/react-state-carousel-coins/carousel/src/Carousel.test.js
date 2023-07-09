@@ -27,6 +27,7 @@ it("works when you click on the right arrow", function() {
   expect(queryByAltText("Photo by Pratik Patel on Unsplash")).toBeInTheDocument();
 });
 
+//
 it("hides and shows arrows appropriately", ()=>{
   const { getByTestId } = render(<Carousel/>)
   const leftArrow = getByTestId("left-arrow")
@@ -46,6 +47,7 @@ it("hides and shows arrows appropriately", ()=>{
   expect(rightArrow).toHaveClass("hidden")
 })
 
+//
 it("works when you click on the left arrow", ()=>{
   const { getByTestId, queryByAltText } = render(<Carousel/>);
   const leftArrow = getByTestId("left-arrow");
